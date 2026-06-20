@@ -62,13 +62,13 @@ Main functionalities include:
 
   •	Automatic extraction and summary of:
 
-    o	Individual endemic areas (SET NR.)
+    -	Individual endemic areas (SET NR.)
 
-    o	Consensus areas
+    -	Consensus areas
 
-    o	Species represented in each analysis
+    -	Species represented in each analysis
 
-    o	Endemic species per area and per consensus
+    -	Endemic species per area and per consensus
 
   •	Export of all results to a multi-sheet Excel file, facilitating downstream analyses and reporting.
 
@@ -91,11 +91,11 @@ Main outputs include:
 
   •	Beta Diversity Partitioning (Baselga, 2009): Advanced decomposition of biotic dissimilarity between areas, calculating:
 
-    o	Turnover (βsim): Species replacement between areas.
+    -	Turnover (βsim): Species replacement between areas.
 
-    o	Nestedness (βsne): Dissimilarity resulting from species loss/gain (subsets).
+    -	Nestedness (βsne): Dissimilarity resulting from species loss/gain (subsets).
 
-    o	Total Dissimilarity (βsor and βjac): Overall taxonomic difference.
+    -	Total Dissimilarity (βsor and βjac): Overall taxonomic difference.
 
 All results are exported to a single Excel file with multiple sheets (including specialized sheets for genus-level summaries and analytical statistics), enabling comparative spatial analyses and integration with GIS software.
 
