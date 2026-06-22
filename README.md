@@ -210,6 +210,8 @@ Depending on the dataset, example files may include:
 
 These files are provided to help users test the workflow and reproduce the main functions of the software.
 
+If you want to see the *Asian Aves occurrence data*, please see this [Figshare link](https://doi.org/10.6084/m9.figshare.32764335)
+
 ---
 
 ## System requirements
