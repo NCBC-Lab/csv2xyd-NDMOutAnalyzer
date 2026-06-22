@@ -451,7 +451,7 @@ A DOI-based citation will be added when a versioned release is archived.
 
 This project is distributed under the MIT License.
 
-See the `LICENSE [LICENSE](https://github.com/NCBC-Lab/csv2xyd-NDMOutAnalyzer/blob/main/LICENSE)` file for details.
+See the [LICENSE](https://github.com/NCBC-Lab/csv2xyd-NDMOutAnalyzer/blob/main/LICENSE) file for details.
 
 ---
 
