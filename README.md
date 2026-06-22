@@ -200,7 +200,6 @@ The [Examples data](https://github.com/NCBC-Lab/csv2xyd-NDMOutAnalyzer/tree/main
 
 Depending on the dataset, example files may include:
 
-* XYD files for NDM/vNDM.
 * NDM/vNDM `.out` files.
 * Consensus polygon and point files.
 * Excel summaries.
@@ -209,7 +208,7 @@ Depending on the dataset, example files may include:
 
 These files are provided to help users test the workflow and reproduce the main functions of the software.
 
-If you want to see the CSV *Asian Aves occurrence data*, please see this [Figshare link](https://doi.org/10.6084/m9.figshare.32764335)
+If you want to see the CSV and XYD *Asian Aves occurrence data*, please see this [Figshare link](https://doi.org/10.6084/m9.figshare.32764335)
 
 ---
 
