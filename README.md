@@ -3,7 +3,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey)
 ![Status](https://img.shields.io/badge/status-active%20development-orange)
 
 **csv2xyd-NDMOutAnalyzer**, a graphical workflow for cleaning biodiversity occurrence datasets and exporting files compatible with NDM/vNDM.
@@ -210,6 +210,12 @@ These files are provided to help users test the workflow and reproduce the main 
 
 If you want to see the CSV and XYD *Asian Aves occurrence data*, please see this [Figshare link](https://doi.org/10.6084/m9.figshare.32764335)
 
+🎬 Tutorial csv2xyd NDMOutAnalyzer
+
+Learn how to use the new **NDM/vNDM Output Analyzer** module in `csv2xyd v2.1` to automate data parsing, perform spatial validation, and generate publication-ready mosaic maps:
+
+[![Tutorial csv2xyd NDMOutAnalyzer](https://img.youtube.com/vi/ddKAnoBphqo/maxresdefault.jpg)](https://youtu.be/ddKAnoBphqo)
+
 ---
 
 ## System requirements
@@ -220,7 +226,6 @@ The software is designed to run on:
 
 * Windows 10 or later.
 * Linux Ubuntu 20.04 or later.
-* macOS 12 or later.
 
 ### Python
 
@@ -233,19 +238,18 @@ Python 3.10 or later
 Tested development environment:
 
 ```text
-Python 3.12.4
+Python 3.14.3
 ```
 
-### Hardware
+## Hardware
 
-Recommended configuration for large datasets:
+The software has been benchmarked and successfully validated for handling massive biodiversity datasets using the following hardware configuration:
 
-```text
-CPU: Quad-core processor or better
-RAM: 8–16 GB
-Disk space: 1 GB free
-Screen resolution: 1920 × 1080 or higher
-```
+* **OS:** Microsoft Windows 11 Pro (x64-based PC, UEFI mode)
+* **Processor:** Intel(R) Core(TM) i7-9850H CPU @ 2.60GHz (6 Physical Cores / 12 Logical Processors)
+* **RAM:** 32.0 GB Installed Physical Memory
+* **Storage:** 1 GB of free disk space recommended for output generation
+* **Display:** 1920 × 1080 resolution or higher recommended for optimal GUI rendering
 
 Large occurrence datasets, multiple `.out` files, or geospatial consensus analyses may require additional memory.
 
@@ -269,11 +273,6 @@ matplotlib>=3.8
 
 The graphical interface uses `tkinter`, which is included with most Python distributions. On some Linux systems, it must be installed separately through the operating system package manager.
 
-Optional dependency for faster fuzzy matching:
-
-```text
-python-Levenshtein
-```
 
 ---
 
@@ -291,14 +290,9 @@ cd csv2xyd-NDMOutAnalyzer
 Install dependencies:
 
 ```bash
-pip install pandas numpy dask fuzzywuzzy folium geopandas shapely XlsxWriter matplotlib
+pip install pandas numpy dask folium geopandas shapely XlsxWriter matplotlib
 ```
 
-Optional fuzzy-matching speedup:
-
-```bash
-pip install python-Levenshtein
-```
 
 On Ubuntu or Debian-based Linux systems, install Tkinter if needed:
 
@@ -457,7 +451,7 @@ See the [LICENSE](https://github.com/NCBC-Lab/csv2xyd-NDMOutAnalyzer/blob/main/L
 
 ## Authors
 
-**Jonathan Liria** **&** 
+**Jonathan Liria Salazar** **&** 
 **Ana Y. Soto-Vivas**
 
 Neotropical Cladistic Biogeography Computing Lab
