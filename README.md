@@ -290,7 +290,7 @@ cd csv2xyd-NDMOutAnalyzer
 Install dependencies:
 
 ```bash
-pip install pandas numpy dask folium geopandas shapely XlsxWriter matplotlib
+pip install pandas numpy dask fuzzywuzzy folium geopandas shapely XlsxWriter matplotlib
 ```
 
 
@@ -437,7 +437,7 @@ Suggested citation:
 Liria, J. & Soto-Vivas, A. Y. 2026. csv2xyd-NDMOutAnalyzer: a Python GUI workflow for biodiversity occurrence cleaning, NDM/vNDM input generation, and comparative analysis of areas of endemism. Neotropical Cladistic Biogeography Computing Lab. MIT License.
 ```
 
-A DOI-based citation will be added when a versioned release is archived.
+Expanded DOI-based release and citation metadata.
 
 ---
 
